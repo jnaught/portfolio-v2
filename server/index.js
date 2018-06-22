@@ -7,11 +7,12 @@ const config = require("./config");
 const port = 3200
 
 const app = express();
+app.use(express.static(`${__dirname}/../build`));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(`${__dirname}/../build)`));
+
 
 const transporter = nodemailer.createTransport({
     service: "gmail",
