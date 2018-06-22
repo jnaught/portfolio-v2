@@ -1,5 +1,5 @@
 import StreamGuide from "../images/work/streamguide.png";
-import mommyFriends from "../images/work/mmf.png";
+import Portfolio from "../images/work/portfolio.png";
 import wishtrip from "../images/work/wishtrip.png";
 
 export default [
@@ -13,13 +13,13 @@ export default [
         demoLink: "http://streamguide.aaronnacua.com/"
     },
     {
-        name: "Mommy Friends Forever",
+        name: "Portfolio",
         info:
-            "Built with Create-React-App (Postgres, Express, React Redux, Node.js), Personal Project aimed to get Moms together who have similar interests",
-        img: mommyFriends,
-        alt: "Mommy Friends Forever",
-        codeLink: "https://github.com/jnaught/mommy-friends-forever",
-        demoLink: "http://mommyfriendsforever.com"
+            "Built with Create-React-App (React, MaterilizeCSS), Personal Portfolio aimed to showcase my work and skills",
+        img: Portfolio,
+        alt: "portfolio",
+        codeLink: "https://github.com/jnaught/portfolio-v2",
+        demoLink: "http://aaronnacua.com"
     },
     {
         name: "WishTrip ",
